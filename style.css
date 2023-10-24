@@ -1,0 +1,244 @@
+
+
+* {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 2% 8% 2% 8%;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .nav_bar {
+    display: none;
+  }
+
+  #traveller {
+    display: none;
+  }
+
+  #destination_cards {
+    flex-direction: column;
+  }
+
+   footer {
+    flex-direction: column;
+  }
+
+  main > section > article > h1 {
+    font-size: 30px;
+  }
+
+  main > section > article > h3 {
+    font-size: 12px;
+  }
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  gap: 30px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+button {
+  margin-right: 10px;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  background-color: orange;
+  border-radius: 10px;
+  }
+
+button:hover {
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+select {
+  border: none;
+  cursor: pointer;
+  }
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.article_hero {
+  width: 30%;
+  display: block;
+  margin-top: 100px;
+}
+
+.article_hero h3 {
+  color: orange;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+  }
+
+.article_hero img {
+  width: 35px;
+  height: 35px;
+}  
+
+#footer_hero {
+  margin-top: 20px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 12px;
+}
+
+.block_1 {
+  width: 100%;
+  display: block;
+}
+
+#intro {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center ;
+  justify-items: center;
+}
+
+
+#intro > p, h2 {
+  width: 20%;
+  text-align: center;
+}
+  
+#intro > h2 {
+    margin-bottom: 100px;
+  }
+
+#cards_block {
+  display: flex;
+  justify-content: space-around;
+}  
+
+#cards_block img {
+  width: 77px;
+}
+
+#card_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 30%;
+}
+
+#card_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 30%;
+}
+
+#card_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 30%;
+}
+
+.block_2 {
+  width: 100%;
+}
+
+/* voy a probar a centrar el p y el h2 del Block 2 con menos lineas y solo con text align */
+
+#intro_block_2 > p, h2 {
+  text-align: center;
+}
+
+#intro_block_2 > h2 {
+  width: 100%;
+}
+
+/* con solo dos lineas he conseguido lo que arriba me lleva dos o tres bloques*/
+
+#intro_block_2 {
+  margin: 40px 0px 100px 0px;
+}
+
+#destination_cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 57px;
+}
+
+#intro_3 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .social > p {
+  text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
