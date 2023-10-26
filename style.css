@@ -5,8 +5,7 @@
   text-decoration: none;
   color: black;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;  
+  padding: 0;  
 }
 /*
 body {
@@ -16,6 +15,13 @@ body {
 */
 
 @media (max-width: 768px) {
+ 
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
   .nav_bar {
     display: none;
   }
@@ -35,6 +41,8 @@ body {
 
   #destination_cards {
     flex-direction: column;
+    align-content: center;
+ 
   }
   .article_hero {
     width: 100vw;
@@ -167,7 +175,7 @@ h2 {
 
 
 #intro > p, h2 {
-  width: 30%;
+  /*width: 30%;*/
   text-align: center;
 }
   
@@ -252,7 +260,8 @@ footer img {
 
 #intro_3 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 30px;
   flex-basis: 20%;
 }
 
