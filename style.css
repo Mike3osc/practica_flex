@@ -14,58 +14,7 @@ body {
 }
 */
 
-@media (max-width: 768px) {
- 
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .nav_bar {
-    display: none;
-  }
 
-  #traveller {
-    display: none;
-  }
-
-  .block_1 {
-    margin-top: 50px;
-  }
-
-  #cards_block {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
-  #destination_cards {
-    flex-direction: column;
-    align-content: center;
- 
-  }
-  .article_hero {
-    width: 100vw;
-  }
-
-  .block_2 {
-    margin-top: 50px;
-  }
-
-   footer {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  main > section > article > h1 {
-    font-size: 30px;
-  }
-
-  main > section > article > h3 {
-    font-size: 12px;
-  }
-
-}
 
 header {
   position: fixed;
@@ -79,11 +28,18 @@ header {
   margin: 0% 8% 0% 8%;
   }
 
+.menu {
+    width: 50px;
+    display: none;
+    cursor: pointer;
+  }
+
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 30px;
+  width: 100%;
 }
 
 nav > ul {
@@ -247,7 +203,7 @@ h2 {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 2% 8% 0% 8%;
   width: 85%;
@@ -274,6 +230,70 @@ footer ul {
   text-align: center;
  }
 
+ @media (max-width: 768px) {
+ 
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+    
+  .nav_bar {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  #traveller {
+    display: none;
+  }
+
+  .block_1 {
+    margin-top: 50px;
+  }
+
+  #cards_block {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #destination_cards {
+    flex-direction: column;
+    align-content: center;
+ 
+  }
+  .article_hero {
+    width: 100vw;
+  }
+
+  .block_2 {
+    margin-top: 50px;
+  }
+
+   footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  footer > div > p {
+    display: none;
+  }
+
+
+
+  main > section > article > h1 {
+    font-size: 30px;
+  }
+
+  main > section > article > h3 {
+    font-size: 12px;
+  }
+
+}
 
 
 
